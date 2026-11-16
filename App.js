@@ -718,7 +718,7 @@ async function handlePasswordReset() {
     let redirectUrl;
 
 if (Platform.OS === 'web') {
-  redirectUrl = 'https://snack.expo.dev/@willianmendes/jealous-indigo-pretzel?platform=web&flow=recovery';
+  redirectUrl = 'https://barberpro-willian-mendes.netlify.app/?flow=recovery';
 } else {
   redirectUrl = 'barberpro://auth/callback?flow=recovery';
 }
